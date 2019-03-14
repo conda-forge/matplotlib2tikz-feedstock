@@ -22,7 +22,7 @@ requirements:
     - python
     - matplotlib >=1.4.0
     - numpy
-    - pillow >=3.0.0
+    - pillow
     - six
 
 test:
