@@ -1,5 +1,5 @@
 {% set name = "matplotlib2tikz" %}
-{% set version = "0.6.18" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4208fa25ce2832b4ba80deae3a59eb29af491aea112b56efaad0f0253a3d77db
+  sha256: 0d052af5dbccd3e35f32045e0846d5498c6eb017ab1efddca3aa547444b1242d
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
     - python
     - matplotlib >=1.4.0
     - numpy
-    - pillow >=3.0.0
+    - pillow
     - six
 
 test:
