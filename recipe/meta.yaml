@@ -1,5 +1,5 @@
 {% set name = "matplotlib2tikz" %}
-{% set version = "0.7.4" %}
+{% set version = "0.7.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 067927ab3c820e5ce55d73e626198306c3ff0c8d2dfdbc8ddca5eeb24a81907f
+  sha256: add08d7de4a2997f194b1c710d93b383bf3afed6b33e44e40589990798d8984d
 
 build:
   noarch: python
